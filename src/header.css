@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1em;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+header i {
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+header i:hover {
+  filter: brightness(80%);
+}
